@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Rennpferd!</title>
+	<script src="lib/phaser.min.js"></script>
+	<script src="states/Boot.js"></script>
+	<script src="states/Preloader.js"></script>
+	<script src="states/MainMenu.js"></script>
+	<script src="states/Game.js"></script>
+    <style>
+
+		body {
+            margin: 0;
+            padding: 0;
+			background-color: #fff;
+        }
+    </style>
+	<meta name="viewport"
+		content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+</head>
+<body>
+
+<script type="text/javascript">
+(function() {
+
+	//	100% of the browser window - see Boot.js for additional configuration
+	var SAFE_ZONE_WIDTH = 960;// * window.devicePixelRatio;
+	var SAFE_ZONE_HEIGHT = 640;// * window.devicePixelRatio;
+	var game = new Phaser.Game(SAFE_ZONE_WIDTH, SAFE_ZONE_HEIGHT, Phaser.AUTO, '');
+
+	//	Add the States your game has.
+	game.state.add('Boot', RENAME_ME.Boot);
+	game.state.add('Preloader', RENAME_ME.Preloader);
+	game.state.add('MainMenu', RENAME_ME.MainMenu);
+	game.state.add('Game', RENAME_ME.Game);
+
+	//	Now start the Boot state.
+	game.state.start('Boot');
+})();
+
+</script>
+
+</body>
+</html>
