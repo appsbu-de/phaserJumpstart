@@ -1,6 +1,6 @@
-# Phaser Jump start
+# PhaserJS Jump start
 
-My template for jumstarting game prototypes using phaser. Noone needs a complex build script for prototypes ;)
+My template for jumpstarting game prototypes using [Phaser](http://phaser.io). Noone needs a complex build script for prototypes ;)
 
 ## Howto
 You do not need to get the repository, just use the commands below to get a working copy:
@@ -16,6 +16,8 @@ You do not need to get the repository, just use the commands below to get a work
 `perl -pi -w -e 's/RENAME_ME/MYAWESOMENAME/g;' states/*.js index.html`
 
 Have fun.
+
+And thanks to Phaser.io for such an amazing HTML5 Game engine!
 
 # Changelog
 V1.0 - Initial release based on Phaser 2.4.3
