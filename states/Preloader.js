@@ -5,7 +5,7 @@ RENAME_ME.Preloader = function(game) {
 RENAME_ME.Preloader.prototype = {
 
     preload: function() {
-        this.load.bitmapFont('kenneyfont', 'fonts/kenneyspace_72/kenneyspace_72.png', 'fonts/kenneyspace_72/kenneyspace_72.xml');
+        
     },
 
     create: function() {
