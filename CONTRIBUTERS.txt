@@ -1,0 +1,8 @@
+A list of all Contributors and Bug reporters!
+
+Thanks to:
+----------------------------------------------------------------
+"Chris" https://github.com/cdubz
+    Reported:   https://github.com/appsbu-de/phaserJumpstart/issues/1
+                https://github.com/appsbu-de/phaserJumpstart/issues/2
+    
