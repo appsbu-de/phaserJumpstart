@@ -20,6 +20,7 @@ Have fun.
 And thanks to Phaser.io for such an amazing HTML5 Game engine!
 
 # Changelog
-V1.0 - Initial release based on Phaser 2.4.3
+* V1.1 - Updated to Phaser 2.4.4 "Amador"
+* V1.0 - Initial release based on Phaser 2.4.3
 
-Contact my via Twitter: (@casarock)[http://twitter.com/casarock]
+Contact my via Twitter: [@casarock](http://twitter.com/casarock)
