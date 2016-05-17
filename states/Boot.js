@@ -17,7 +17,7 @@ RENAME_ME.Boot.prototype = {
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
 
-        if (false && this.game.device.desktop) {
+        if (this.game.device.desktop) {
             console.log("I'm desktop");
             this.scale.maxWidth = this.game.width;
             this.scale.maxHeight = this.game.height;
